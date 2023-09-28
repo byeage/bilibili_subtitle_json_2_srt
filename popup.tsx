@@ -3,6 +3,8 @@ import { useState } from "react"
 function IndexPopup() {
   const [data, setData] = useState("")
 
+  console.log(document.location.href)
+
   return (
     <div
       style={{
