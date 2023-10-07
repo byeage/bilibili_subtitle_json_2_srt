@@ -1,4 +1,4 @@
-# Bilibili    AI 字幕下载
+# Bilibili AI 字幕下载
 
 ## 介绍
 
@@ -6,10 +6,12 @@
 
 ![icon](./README.assets/icon.png)
 
-
-
 ## 使用方法
 
-![2](./README.assets/2.png)![1](./README.assets/1.png)
+![1](./README.assets/1.png)
 
 ![2](./README.assets/2.png)
+
+### TODO
+
+- [ ] 直接一步重传，而不需要重新下载再上传
