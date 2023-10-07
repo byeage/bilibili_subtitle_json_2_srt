@@ -1,7 +1,7 @@
 {
   "name": "bilibili-subtitle-json2srt",
   "displayName": "Bilibili subtitle json2srt",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "哔哩哔哩JSON字幕文件转SRT文件",
   "author": "lihuazhidao",
   "scripts": {
@@ -11,7 +11,9 @@
   },
   "dependencies": {
     "@plasmohq/messaging": "^0.5.0",
+    "js-cookie": "^3.0.5",
     "plasmo": "0.83.0",
+    "query-string": "^8.1.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
