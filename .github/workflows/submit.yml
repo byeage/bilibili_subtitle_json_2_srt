@@ -24,9 +24,9 @@ jobs:
           node-version: 16.x
           cache: "pnpm"
       - name: Build the extension
-        run: pnpm build
-      - name: Package the extension into a zip artifact
-        run: pnpm package
+        run: pnpm build --zip
+      # - name: Package the extension into a zip artifact
+      #   run: pnpm package
       - name: Browser Platform Publish
         uses: PlasmoHQ/bpp@v3
         with:
